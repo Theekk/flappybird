@@ -65,7 +65,6 @@ function Barriers(height, width, space, axisX, notifyScore) {
   };
 }
 
-//Flappy
 function Bird(axisY) {
   let fly = false;
 
@@ -158,14 +157,3 @@ function FlappyBird() {
 }
 
 new FlappyBird().start();
-// const barriers = new Barriers(700, 1200, 200, 400);
-// const bird = new Bird(700);
-// const gameArea = document.querySelector("[wm-flappy]");
-
-// gameArea.appendChild(bird.element);
-// gameArea.appendChild(new Progress().element)
-// barriers.pairs.forEach((pairs) => gameArea.appendChild(pairs.element));
-// setInterval(() => {
-//   barriers.animate();
-//   bird.animate();
-// }, 20);
